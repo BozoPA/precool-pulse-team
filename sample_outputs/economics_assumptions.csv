@@ -1,0 +1,15 @@
+# SCENARIO ASSUMPTIONS
+input,low,base,high
+load_kg,6000.0,6000.0,6000.0
+delta_t_K,15.0,25.0,30.0
+cp_kJ_per_kg_K,3.6,3.7,3.9
+cop,2.0,2.5,3.5
+fan_kw,2.0,4.0,7.5
+batch_h,3.0,4.0,6.0
+other_heat_share,0.1,0.2,0.3
+batches_per_year,360.0,540.0,540.0
+tariff_rs_per_kwh,6.0,8.0,10.0
+fault_share_of_batches,0.05,0.15,0.3
+found_and_fixed_share,0.3,0.55,0.8
+minutes_lost_per_fault,20.0,55.0,90.0
+kit_cost_rs,50000.0,50000.0,100000.0

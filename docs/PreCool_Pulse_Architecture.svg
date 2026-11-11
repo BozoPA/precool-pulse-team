@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Arial, Helvetica, DejaVu Sans, sans-serif">
+<defs><marker id="ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0b0b0b"/></marker><marker id="air" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2a78d6"/></marker><marker id="warm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c2410c"/></marker><marker id="grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b7280"/></marker></defs>
+<rect width="1600" height="1000" fill="#ffffff"/>
+<text x="30" y="44" font-size="26" fill="#12305a" font-weight="bold" text-anchor="start">PreCool Pulse: is the cold air actually cooling the produce?  Solution architecture, Phase 2</text>
+<text x="30" y="72" font-size="15" fill="#44484f" font-weight="normal" text-anchor="start">Solid teal boxes: software that exists and is tested.   Grey dashed boxes: proposed hardware, NOT PHYSICALLY BUILT.   No value in this project was measured by the team.</text>
+<rect x="30" y="92" width="530" height="738" rx="12" fill="none" stroke="#6b7280" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="48" y="122" font-size="19" fill="#0b0b0b" font-weight="bold" text-anchor="start">PROPOSED HARDWARE: NOT PHYSICALLY BUILT</text>
+<text x="48" y="160" font-size="14.5" fill="#2a78d6" font-weight="normal" text-anchor="start">Bypass through a gap: reaches the rail still cold</text>
+<path d="M 110 262 L 110 176 L 352 176 L 352 196" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#air)"/>
+<text x="48" y="300" font-size="14.5" fill="#2a78d6" font-weight="normal" text-anchor="start">Cold supply</text>
+<text x="48" y="318" font-size="14.5" fill="#2a78d6" font-weight="normal" text-anchor="start">air</text>
+<path d="M 60 270 L 158 270" fill="none" stroke="#2a78d6" stroke-width="4" marker-end="url(#air)"/>
+<rect x="165" y="196" width="165" height="176" fill="#fef3c7" stroke="#92400e" stroke-width="2"/>
+<line x1="165" y1="218" x2="330" y2="218" stroke="#d6b36a" stroke-width="1"/>
+<line x1="165" y1="240" x2="330" y2="240" stroke="#d6b36a" stroke-width="1"/>
+<line x1="165" y1="262" x2="330" y2="262" stroke="#d6b36a" stroke-width="1"/>
+<line x1="165" y1="284" x2="330" y2="284" stroke="#d6b36a" stroke-width="1"/>
+<line x1="165" y1="306" x2="330" y2="306" stroke="#d6b36a" stroke-width="1"/>
+<line x1="165" y1="328" x2="330" y2="328" stroke="#d6b36a" stroke-width="1"/>
+<line x1="165" y1="350" x2="330" y2="350" stroke="#d6b36a" stroke-width="1"/>
+<text x="247" y="272" font-size="14.5" fill="#0b0b0b" font-weight="bold" text-anchor="middle">Produce in</text>
+<text x="247" y="290" font-size="14.5" fill="#0b0b0b" font-weight="bold" text-anchor="middle">vented cartons</text>
+<text x="247" y="312" font-size="13.5" fill="#44484f" font-weight="normal" text-anchor="middle">zone 1 at the top,</text>
+<text x="247" y="329" font-size="13.5" fill="#44484f" font-weight="normal" text-anchor="middle">zone 8 at the base</text>
+<rect x="343" y="198" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="220" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="242" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="264" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="286" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="308" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="330" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="343" y="352" width="18" height="18" fill="#f9fafb" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="352" y="394" font-size="14.5" fill="#0b0b0b" font-weight="bold" text-anchor="middle">8-zone sensor rail</text>
+<text x="352" y="412" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="middle">at the return-air face</text>
+<path d="M 372 284 L 452 284" fill="none" stroke="#c2410c" stroke-width="4" marker-end="url(#warm)"/>
+<text x="376" y="262" font-size="14.5" fill="#c2410c" font-weight="normal" text-anchor="start">Return air,</text>
+<text x="376" y="306" font-size="14.5" fill="#c2410c" font-weight="normal" text-anchor="start">warmed</text>
+<circle cx="492" cy="284" r="32" fill="#f9fafb" stroke="#0b0b0b" stroke-width="2"/>
+<text x="492" y="289" font-size="15" fill="#0b0b0b" font-weight="bold" text-anchor="middle">Fan</text>
+<rect x="48" y="436" width="240" height="98" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="60" y="461" font-size="17" fill="#0b0b0b" font-weight="bold" text-anchor="start">Supply-air sensor ×1</text>
+<text x="60" y="484" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">One thermistor in the cold</text>
+<text x="60" y="503" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">supply air.</text>
+<rect x="302" y="436" width="240" height="98" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="314" y="461" font-size="17" fill="#0b0b0b" font-weight="bold" text-anchor="start">Rail sensors ×8 zones</text>
+<text x="314" y="484" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Per zone: air temperature,</text>
+<text x="314" y="503" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">and a heated thermistor for</text>
+<text x="314" y="522" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">air speed.</text>
+<rect x="48" y="546" width="240" height="98" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="60" y="571" font-size="17" fill="#0b0b0b" font-weight="bold" text-anchor="start">Pulp probe at loading</text>
+<text x="60" y="594" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">One fruit temperature per</text>
+<text x="60" y="613" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">zone. Added in Phase 2</text>
+<text x="60" y="632" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">(design change).</text>
+<rect x="302" y="546" width="240" height="98" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="314" y="571" font-size="17" fill="#0b0b0b" font-weight="bold" text-anchor="start">Edge controller</text>
+<text x="314" y="594" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Reads the sensors about once</text>
+<text x="314" y="613" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">a second and would run the</text>
+<text x="314" y="632" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">detect logic.</text>
+<rect x="48" y="656" width="494" height="76" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="60" y="681" font-size="17" fill="#0b0b0b" font-weight="bold" text-anchor="start">Operator display and batch log</text>
+<text x="60" y="704" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">PASS / CHECK ZONE / BATCH LOW. Advisory only: it never</text>
+<text x="60" y="723" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">switches the cooling equipment.</text>
+<text x="48" y="758" font-size="15" fill="#92400e" font-weight="bold" text-anchor="start">Open hardware risks</text>
+<text x="48" y="778" font-size="14" fill="#0b0b0b" font-weight="normal" text-anchor="start">Speed sensors must tell zones apart to about 0.02 m/s at air</text>
+<text x="48" y="796" font-size="14" fill="#0b0b0b" font-weight="normal" text-anchor="start">speeds of 0.14 to 0.27 m/s (published commercial values). Sensor</text>
+<text x="48" y="814" font-size="14" fill="#0b0b0b" font-weight="normal" text-anchor="start">position and return-air mixing are untested.</text>
+<rect x="590" y="92" width="980" height="738" rx="12" fill="none" stroke="#0f766e" stroke-width="3"/>
+<text x="608" y="122" font-size="19" fill="#12305a" font-weight="bold" text-anchor="start">BUILT AND TESTED SOFTWARE: a physics simulation (Python, runs offline on a laptop)</text>
+<path d="M 560 152 L 1325 152 L 1325 236" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#grey)"/>
+<text x="612" y="145" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">Future link, not built: real rail readings would enter here in place of the simulated ones</text>
+<rect x="608" y="172" width="200" height="150" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="620" y="197" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">Inputs</text>
+<text x="620" y="220" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Temperatures, load,</text>
+<text x="620" y="239" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">fan, faults per zone,</text>
+<text x="620" y="258" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">sensor errors. A</text>
+<text x="620" y="277" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">preset only fills in</text>
+<text x="620" y="296" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">inputs.</text>
+<rect x="838" y="172" width="222" height="150" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="850" y="197" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">physics.py</text>
+<text x="850" y="220" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Fan and parallel air</text>
+<text x="850" y="239" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">paths (mass balance).</text>
+<text x="850" y="258" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Produce cooling in each</text>
+<text x="850" y="277" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">zone (energy balance).</text>
+<text x="850" y="296" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Optional evaporation.</text>
+<rect x="1090" y="172" width="220" height="150" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="1102" y="197" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">sensing.py</text>
+<text x="1102" y="220" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">What the rail WOULD read:</text>
+<text x="1102" y="239" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">mixing between zones,</text>
+<text x="1102" y="258" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">missed jets, noise, lag,</text>
+<text x="1102" y="277" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">drift, dead sensors.</text>
+<rect x="1340" y="172" width="212" height="150" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="1352" y="197" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">detect.py</text>
+<text x="1352" y="220" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Zone labels from air</text>
+<text x="1352" y="239" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">speed and heat pickup.</text>
+<text x="1352" y="258" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">UCI. Simpler baselines.</text>
+<text x="1352" y="277" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Whole-batch check.</text>
+<path d="M 808 247 L 836 247" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<path d="M 1060 247 L 1088 247" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<path d="M 1310 247 L 1338 247" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<rect x="838" y="392" width="472" height="124" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="850" y="417" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">scenarios.py: independent check</text>
+<text x="850" y="440" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Compares each label with the simulated produce cooling</text>
+<text x="850" y="459" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">time, not with the fault that was set: correct alarm,</text>
+<text x="850" y="478" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">false alarm or missed.</text>
+<path d="M 949 322 L 949 390" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<text x="957" y="362" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">produce temperatures</text>
+<path d="M 1400 322 L 1400 356 L 1250 356 L 1250 390" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<text x="1262" y="350" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">labels</text>
+<rect x="1340" y="392" width="212" height="124" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="1352" y="417" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">Outputs</text>
+<text x="1352" y="440" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Dashboard (app.py),</text>
+<text x="1352" y="459" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">command line, CSV and</text>
+<text x="1352" y="478" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">JSON export with every</text>
+<text x="1352" y="497" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">input.</text>
+<path d="M 1500 322 L 1500 390" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<path d="M 1310 454 L 1338 454" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<rect x="608" y="572" width="200" height="132" rx="8" fill="#eff6ff" stroke="#0f766e" stroke-width="2.5"/>
+<text x="620" y="597" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">Published data</text>
+<text x="620" y="620" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Measured orange pulp</text>
+<text x="620" y="639" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">temperatures in a lab</text>
+<text x="620" y="658" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">tunnel. Sadie et al.</text>
+<text x="620" y="677" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">2025, CC BY 4.0.</text>
+<rect x="838" y="572" width="300" height="132" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="850" y="597" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">benchmark.py</text>
+<text x="850" y="620" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Cooling model, untuned, against the</text>
+<text x="850" y="639" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">published measurements: half-</text>
+<text x="850" y="658" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">cooling time within −14% to +39%.</text>
+<path d="M 808 638 L 836 638" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<path d="M 852 572 L 852 546 L 823 546 L 823 350 L 866 350 L 866 324" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#grey)"/>
+<text x="612" y="420" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">Checking link: the</text>
+<text x="612" y="438" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">benchmark tests only the</text>
+<text x="612" y="456" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">produce-cooling part of</text>
+<text x="612" y="474" font-size="14" fill="#44484f" font-weight="normal" text-anchor="start">physics.py.</text>
+<rect x="1168" y="572" width="384" height="132" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="1180" y="597" font-size="17" fill="#12305a" font-weight="bold" text-anchor="start">90+ automated tests (pytest)</text>
+<text x="1180" y="620" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">Mass and energy balance, an exact-solution</text>
+<text x="1180" y="639" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">check, 13 scenarios including the failure</text>
+<text x="1180" y="658" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">cases, bad input, and the dashboard.</text>
+<text x="608" y="742" font-size="15" fill="#92400e" font-weight="bold" text-anchor="start">What this shows, and what it does not</text>
+<text x="608" y="763" font-size="14" fill="#0b0b0b" font-weight="normal" text-anchor="start">Shows, in simulation: when the proposed signal reveals a fault and when it is fooled (tarp gaps, mixed return air, missed jets,</text>
+<text x="608" y="781" font-size="14" fill="#0b0b0b" font-weight="normal" text-anchor="start">warm or cool pallets, sensor drift, a weak fan). Does not show: any detection rate or energy saving in a real precooler. The</text>
+<text x="608" y="799" font-size="14" fill="#0b0b0b" font-weight="normal" text-anchor="start">simulated readings are not live data.</text>
+<rect x="30" y="850" width="1540" height="120" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="48" y="880" font-size="16" fill="#12305a" font-weight="bold" text-anchor="start">Key</text>
+<rect x="48" y="896" width="46" height="26" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2.5"/>
+<text x="104" y="915" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">built and tested software</text>
+<rect x="300" y="896" width="46" height="26" rx="5" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="356" y="915" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">proposed hardware, not built</text>
+<rect x="580" y="896" width="46" height="26" rx="5" fill="#eff6ff" stroke="#0f766e" stroke-width="2.5"/>
+<text x="636" y="915" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">third-party published measured data</text>
+<path d="M 900 909 L 950 909" fill="none" stroke="#0b0b0b" stroke-width="2.5" marker-end="url(#ink)"/>
+<text x="960" y="915" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">data flow in the software</text>
+<path d="M 1160 909 L 1210 909" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#grey)"/>
+<text x="1220" y="915" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">planned or checking link</text>
+<path d="M 48 948 L 98 948" fill="none" stroke="#2a78d6" stroke-width="4" marker-end="url(#air)"/>
+<text x="108" y="954" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">cold air</text>
+<path d="M 190 948 L 240 948" fill="none" stroke="#c2410c" stroke-width="4" marker-end="url(#warm)"/>
+<text x="250" y="954" font-size="14.5" fill="#0b0b0b" font-weight="normal" text-anchor="start">air warmed by the produce</text>
+<text x="480" y="954" font-size="14.5" fill="#44484f" font-weight="normal" text-anchor="start">UCI = air speed × (return air temperature − supply air temperature). It is a relative index, not an energy meter.</text>
+</svg>

@@ -1,0 +1,9 @@
+# MODEL-GENERATED from SCENARIO ASSUMPTIONS (economics.RANGES). Nothing here was metered.
+output,p10,p50,p90
+batch_kwh,74.372,92.539,112.614
+kwh_per_tonne,12.395,15.423,18.769
+kwh_per_year,104.023,221.688,435.303
+rupees_per_year,814.937,1763.348,3485.698
+t_co2_per_year,0.07,0.15,0.294
+share_of_annual_electricity,0.002,0.005,0.01
+payback_years_energy_only,18.237,37.356,83.108

@@ -1,0 +1,22 @@
+{
+  "label": "MODEL-GENERATED from SCENARIO ASSUMPTIONS (economics.RANGES). Nothing here was metered.",
+  "base_case": {
+    "field_heat_kwh_thermal": 154.17,
+    "fan_kwh": 16.0,
+    "compressor_kwh": 80.4,
+    "batch_kwh": 96.4,
+    "kwh_per_tonne": 16.07,
+    "average_power_kw": 24.1,
+    "kwh_per_year": 228.69,
+    "rupees_per_year": 1829.52,
+    "t_co2_per_year": 0.1544,
+    "share_of_annual_electricity": 0.0044,
+    "payback_years_energy_only": 27.3296
+  },
+  "produce_value": {
+    "tonnes_per_year": 3240.0,
+    "price_rs_per_kg_assumed": 40.0,
+    "value_of_0.1_percent_rs": 129600,
+    "loss_cut_needed_to_repay_kit_percent": 0.0386
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "field_heat_kwh_thermal": 154.2,
+  "electricity_for_field_heat_kwh": 61.7,
+  "baseline_batch_kwh": 60.0,
+  "left_for_fans_and_losses_kwh": -1.7,
+  "baseline_is_self_consistent": false
+}

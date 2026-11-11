@@ -1,0 +1,15 @@
+# SIMULATED / ILLUSTRATIVE - NOT FIELD-VALIDATED
+scenario,description,status,batch_low,zone_labels,flagged_by_signature,flagged_by_uci_only,flagged_by_temp_only,flagged_by_speed_only,status_with_pulp_probe,flagged_with_pulp_probe,truly_slow_zones,latent_share_of_heat_removed,slowest_zone_7_8_time_h,slowest_vs_fault_free,pressure_across_load_Pa,energy_balance_rel_error,data_kind
+normal,No fault.,PASS,False,all PASS,-,-,-,-,PASS,-,-,0.0,1.903,1.0,150.0,8.054682849856533e-16,MODEL-GENERATED
+bypass_gap,"Large open gap (0.10 m2, e.g. 10 cm x 1 m of loose tarp) discharging at zone 1.",CHECK ZONE,True,Z1:BYPASS-LIKE,1,-,1,1,CHECK ZONE,1,1 2 3 4 5 6 7 8,0.0,2.364,1.242,78.6,4.0273514837006486e-16,MODEL-GENERATED
+bypass_gap_small,Small gap (0.01 m2) at zone 1.,CHECK ZONE,False,Z1:BYPASS-LIKE,1,-,1,1,CHECK ZONE,1,-,0.0,1.94,1.02,141.4,4.8328099303939995e-15,MODEL-GENERATED
+blockage,Zone 5 vents restricted (9x flow resistance).,CHECK ZONE,False,Z5:RESTRICTED-LIKE,5,5,-,5,CHECK ZONE,5,5,0.0,4.099,2.154,156.2,3.222132047787689e-15,MODEL-GENERATED
+package_bypass,Zone 3: half the carton air passes around the produce.,CHECK ZONE,False,Z3:LOW HEAT PICKUP,3,3,3,-,CHECK ZONE,3,3,0.0,3.074,1.615,150.0,2.0136832001616791e-16,MODEL-GENERATED
+weak_fan,Fan delivers half its normal pressure; every zone equally starved.,BATCH LOW,True,all PASS,-,-,-,-,BATCH LOW,-,1 2 3 4 5 6 7 8,0.0,2.294,1.206,85.7,5.436920023188852e-15,MODEL-GENERATED
+mixed_return,"Large gap at zone 1, but return air mixes strongly between neighbouring zones.",CHECK ZONE,True,Z1:BYPASS-LIKE | Z2:BYPASS-LIKE,1 2,-,1 2,1 2,CHECK ZONE,1 2,1 2 3 4 5 6 7 8,0.0,2.364,1.242,78.6,4.0273514837006486e-16,MODEL-GENERATED
+jet_missed,"Large gap at zone 1, but the zone-1 sensors sit outside the bypass jet.",BATCH LOW,True,all PASS,-,-,-,-,BATCH LOW,-,1 2 3 4 5 6 7 8,0.0,2.364,1.242,78.6,4.0273514837006486e-16,MODEL-GENERATED
+warm_twin,"Zone 4 has 40% carton bypass AND warmer produce, chosen so its readings match a healthy zone.",PASS,False,all PASS,-,-,-,-,CHECK ZONE,4,4,0.0,2.696,1.417,150.0,0.0,MODEL-GENERATED
+cool_pallet,No fault; zone 6 produce simply starts cooler (20 C instead of 27 C).,CHECK ZONE,False,Z6:LOW HEAT PICKUP,6,6,6,-,PASS,-,-,0.0,1.903,1.0,150.0,6.26011620455171e-16,MODEL-GENERATED
+sensor_gain_drift,No fault; zone 7 speed sensor reads 40% low.,CHECK ZONE,False,Z7:RESTRICTED-LIKE,7,7,-,7,CHECK ZONE,7,-,0.0,1.903,1.0,150.0,8.054682849856533e-16,MODEL-GENERATED
+sensor_dead,No fault; zone 7 sensors return nothing.,CHECK ZONE,False,Z7:SENSOR FAULT,7,-,-,-,CHECK ZONE,7,-,0.0,1.903,1.0,150.0,8.054682849856533e-16,MODEL-GENERATED
+evaporation,No fault; produce also loses heat by evaporation (illustrative transpiration coefficient).,PASS,False,all PASS,-,-,-,-,PASS,-,-,0.1188,1.754,1.0,150.0,2.4092681813760678e-15,MODEL-GENERATED

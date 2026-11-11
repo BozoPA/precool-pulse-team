@@ -1,0 +1,12 @@
+# SIMULATED / ILLUSTRATIVE - NOT FIELD-VALIDATED
+v_bias_sigma_m_s,sigma_t_K,runs,normal_false_alarm_rate,blockage_zone_flagged_rate,blockage_only_that_zone_rate,package_bypass_zone_flagged_rate,package_bypass_only_that_zone_rate
+0.0,0.1,200,0.0,1.0,1.0,1.0,1.0
+0.02,0.1,200,0.0,1.0,1.0,1.0,1.0
+0.05,0.1,200,0.32,1.0,0.795,1.0,0.705
+0.11,0.1,200,0.895,0.94,0.225,1.0,0.13
+0.24,0.1,200,0.99,0.725,0.01,1.0,0.015
+0.0,0.5,200,0.0,1.0,1.0,1.0,1.0
+0.02,0.5,200,0.0,1.0,1.0,1.0,1.0
+0.05,0.5,200,0.32,1.0,0.795,1.0,0.705
+0.11,0.5,200,0.895,0.94,0.225,1.0,0.13
+0.24,0.5,200,0.99,0.725,0.01,1.0,0.015

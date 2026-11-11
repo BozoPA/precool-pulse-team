@@ -1,0 +1,9 @@
+# MODEL-GENERATED from SCENARIO ASSUMPTIONS (economics.RANGES). Nothing here was metered.
+input,low_value,high_value,rupees_at_low,rupees_at_high,swing_rupees,base_rupees
+fault_share_of_batches,0.05,0.3,610,3659,3049,1830
+fan_kw,2.0,7.5,915,3430,2516,1830
+minutes_lost_per_fault,20.0,90.0,665,2994,2328,1830
+found_and_fixed_share,0.3,0.8,998,2661,1663,1830
+tariff_rs_per_kwh,6.0,10.0,1372,2287,915,1830
+batches_per_year,360.0,540.0,1220,1830,610,1830
+cop,2.0,3.5,1960,1680,280,1830

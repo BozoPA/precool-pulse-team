@@ -1,0 +1,7 @@
+# SIMULATED / ILLUSTRATIVE - NOT FIELD-VALIDATED
+minutes_saved,kwh_per_year,rupees_per_year,t_co2_per_year
+10,1350.0,10800,0.91
+15,2025.0,16200,1.37
+30,4050.0,32400,2.73
+45,6075.0,48600,4.1
+60,8100.0,64800,5.47

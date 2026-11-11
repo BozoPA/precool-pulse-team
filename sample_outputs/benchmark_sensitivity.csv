@@ -1,0 +1,11 @@
+# MODEL-GENERATED sensitivity of the benchmark prediction
+changed_input,value,half_time_error_at_0.05_m_s,half_time_error_at_0.20_m_s,half_time_error_at_0.35_m_s
+bulk_density,460.0,0.21,-0.068,-0.215
+bulk_density,540.0,0.388,0.041,-0.135
+bulk_density,620.0,0.568,0.152,-0.055
+fruit_diameter,0.07,0.357,-0.014,-0.197
+fruit_diameter,0.08,0.388,0.041,-0.135
+fruit_diameter,0.09,0.424,0.103,-0.067
+k_prod,0.45,0.393,0.057,-0.114
+k_prod,0.55,0.388,0.041,-0.135
+k_prod,0.65,0.385,0.03,-0.15
